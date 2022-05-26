@@ -1,16 +1,9 @@
-package com.api.api.model;
+package com.api.api.view.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
-@Entity
-public class Produto {
+//Essa classe é responsavel para mostrar o que será mandado como resposta para a requisição.
+public class ProdutoResponse {
     
     //#region Atributos
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
     private String nome;
@@ -66,5 +59,4 @@ public class Produto {
     }
     
     //#endregion
-
 }

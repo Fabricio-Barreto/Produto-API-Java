@@ -1,16 +1,8 @@
-package com.api.api.model;
+package com.api.api.shared;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
-@Entity
-public class Produto {
+public class ProdutoDTO {
     
     //#region Atributos
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
     private String nome;
@@ -66,5 +58,4 @@ public class Produto {
     }
     
     //#endregion
-
 }
