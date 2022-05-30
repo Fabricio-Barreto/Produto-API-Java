@@ -20,6 +20,7 @@ public class Produto {
     private Double valor;
 
     private String observacao;
+    
     //#endregion
 
     

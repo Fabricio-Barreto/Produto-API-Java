@@ -2,10 +2,8 @@ package com.api.api.view.controller;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
-import com.api.api.model.Produto;
 import com.api.api.services.ProdutoService;
 import com.api.api.shared.ProdutoDTO;
 import com.api.api.view.model.ProdutoRequest;
